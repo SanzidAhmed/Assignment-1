@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #637ea5;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  background: rgb(209, 17, 17);
+  border-radius: 15px;
+  box-shadow: 0 20px 20px rgba(231, 223, 223, 0.1);
+  text-align: center;
+}
+
+.profile-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.name {
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.occupation {
+  font-size: 1.2em;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 1em;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.contact {
+  font-size: 0.9em;
+  color: white;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+.btn-pro {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px 10px 20px;
+}
+.btn-pro:hover {
+  background-color: #dcf094;
+  color: black;
+}
+.btn-normal {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btn-normal:hover {
+  background-color: #dcf094;
+  color: black;
+}
